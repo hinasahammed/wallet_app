@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:wallet_app/view/login/login_view.dart';
+import 'package:wallet_app/view/walletStartingView/wallet_starting_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         textTheme: GoogleFonts.robotoMonoTextTheme(),
       ),
-      home: const LoginView(),
+      home: const WalletStartingView(),
     );
   }
 }
